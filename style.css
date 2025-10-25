@@ -1,27 +1,20 @@
-
-
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-   font-family: "YoungFrankenstein", sans-serif;
-   
+  font-family: "Young-Frankenstein", sans-serif;
 }
 
-
 body {
-background: #51290f
-
+  background: #51290f;
 }
 
 .app {
-background: #fff;
-width: 90%;
-max-width: 600px;
-margin: 100px auto 0; 
-border-radius: 10px; 
-padding: 30px;
-
-
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
 }
