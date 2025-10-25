@@ -40,7 +40,57 @@ const questions = [
             {text: "Hamlet", correct: false},
             {text: "Romeo and Juliet", correct: false},
         ]
-    }
+    },
+{question: "What ancient Celtic Festival was the precursor to Halloween?",
+        answers: [
+            {text: "Samhain", correct: true},
+            {text: "October Fest", correct: false},
+            {text: " Imbolc", correct: false},
+            {text: "Lughnasadh", correct: false},
+        ] 
+    },
+    {question: "In the Nightmare Before Christmas, what is the name of the chracter who is obsessed with Halloween?",
+        answers: [
+            {text: "Jack Shockston", correct: false},
+            {text: "Lock", correct: false},
+            {text: "Oogie Boogie", correct: false},
+            {text: "Jack Skellington", correct: true},
+        ] 
+
+    },
+{question: "Who directed netflix series Wendesday?",
+        answers: [
+            {text: "Martin Scorsese", correct: false},
+            {text: "Tim Burton", correct: true},
+            {text: "James Cameron", correct: false},
+            {text: "Hayao Miyazaki", correct: false},
+        ] 
+    },
+{question: "Who wrote The Fall of the House of Usher?",
+        answers: [
+            {text: "Mary Shelley", correct: false},
+            {text: "Stephan King", correct: false},
+            {text: "Edgar Allan Poe", correct: true},
+            {text: "Rick Riordan", correct: false},
+        ] },
+ { question: "Which European city is home to many gothic tales?",
+        answers: [
+            {text: "Paris", correct: false},
+            {text: "Romania", correct: true},
+            {text: "Bolivia", correct: false},
+            {text: "Italy", correct: false},
+        ] },
+        { question: "Which Shakespearean play is often associated with witches and the supernatural?",
+        answers: [
+            {text: "Beetle Juice", correct: false},
+            {text: "Macbeth", correct: true},
+            {text: "Hamlet", correct: false},
+            {text: "Romeo and Juliet", correct: false},
+        ]},
+      
+
+     
+     
 ];
 
 const questionElement = document.getElementById("question");
@@ -127,3 +177,39 @@ nextButton.addEventListener("click", () => {
 startQuiz ();
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var falling = true;
+
+TweenLite.set("#container",{perspective:600})
+TweenLite.set("img",{xPercent:"-50%",yPercent:"-50%"})
+
+var total = 30;
+var container = document.getElementById("container"),	w = window.innerWidth , h = window.innerHeight;
+ 
+ for (i=0; i<total; i++){ 
+   var Div = document.createElement('div');
+   TweenLite.set(Div,{attr:{class:'dot'},x:R(0,w),y:R(-200,-150),z:R(-200,200)});
+   container.appendChild(Div);
+   animm(Div);
+ }
+ 
+ function animm(elm){   
+   TweenMax.to(elm,R(6,15),{y:h+100,ease:Linear.easeNone,repeat:-1,delay:-15});
+   TweenMax.to(elm,R(4,8),{x:'+=100',rotationZ:R(0,180),repeat:-1,yoyo:true,ease:Sine.easeInOut});
+   TweenMax.to(elm,R(2,8),{rotationX:R(0,360),rotationY:R(0,360),repeat:-1,yoyo:true,ease:Sine.easeInOut,delay:-5});
+ };
+
+function R(min,max) {return min+Math.random()*(max-min)}
