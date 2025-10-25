@@ -1,3 +1,9 @@
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const clickSound = document.getElementById("click-sound");
+    document.addEventListener('click', function() {clickSound.play();});
+
 const questions = [
     {
         question: "What vegetable was used to carve jack-o'lanters before pumpkins?",
@@ -116,4 +122,8 @@ nextButton.addEventListener("click", () => {
     } else {
         handleNextButton();
     }
+});
+
+startQuiz ();
+
 });

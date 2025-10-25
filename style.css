@@ -1,21 +1,26 @@
+.my-spooky-heading {
+  font-family: "Nosifer", cursive;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Young-Frankenstein", sans-serif;
 }
 
 body {
-  background: #51290f;
+  background: #7e3206;
 }
 
 .app {
-  background: #fff;
+  background: #d3af9f;
   width: 90%;
   max-width: 600px;
   margin: 100px auto 0;
   border-radius: 10px;
   padding: 30px;
+  background-image: url("Ween.png");
+  background-size: cover;
 }
 
 .app h1 {
@@ -24,6 +29,7 @@ body {
   font-weight: 600;
   border-bottom: 1px solid #333;
   padding-bottom: 30px;
+  font-family: "Nosifer";
 }
 
 .quiz {
@@ -33,12 +39,15 @@ body {
 .quiz h2 {
   font-size: 18px;
   color: #222;
-  font-weight: 600;
+  font-weight: 900;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .btn {
-  background: white;
-  color: darkblue;
+  background: rgb(123, 69, 32);
+  color: rgb(194, 197, 203);
   font-weight: 500;
   width: 100%;
   border: 1px solid gray;
@@ -48,6 +57,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .btn:hover:not([disabled]) {
@@ -75,5 +85,20 @@ body {
 }
 
 .incorrect {
-  background: rgb(129, 25, 108);
+  background: rgb(126, 22, 22);
+}
+
+.dot {
+  width: 35px;
+  height: 25px;
+  position: absolute;
+  background: url(http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png);
+  background-size: 100% 100%;
+}
+
+html,
+body,
+#container {
+  width: 100%;
+  height: 100%;
 }
