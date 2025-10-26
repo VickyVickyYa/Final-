@@ -8,7 +8,7 @@ The reason I made it is because when those around me would experience Halloween.
 
 Building  my project was ironically eventful, it was last minute planned. I can't believe I pulled it off in my crammed schedule, that transitioned me into a caffeine craving night owl. 
 
-Halloween trivia is made first by HTML structure for example  using divs to organize my webpage for the trivia game container having all my buttons in. Styling with CSS was fun, features included were background  gradients, a beautiful fade espresso color. The heading <h1> Play if you dare with> or Halloween Trivia its flickering feature is pretty neat. Falling leaves feature really sets the mood I found on CodePen. And the music that can be triggered with click set one Java script. I have to mention the google fonts, I thought VS code suggested fonts were to end all be all. 
+Halloween trivia is made first by HTML structure for example  using divs to organize my webpage for the trivia game container having all my buttons in. Styling with CSS was fun, features included were background  gradients, a beautiful fade espresso color. The heading <h1> Play if you dare with> or Halloween Trivia its flickering feature is pretty neat. Falling leaves feature really sets the mood I found on CodePen. And the music that can be triggered with click from Java script. I have to mention the google fonts, I thought VS code suggested fonts were to end all be all. 
 
 For the Trivia to work I used Javascript. I needed the buttons to be functional so when someone clicks it will tell them if they're wrong or right and keep track of the ones they aced. For example document.gitElementById() can grab parts of the page such as the next-btn and open a door for how that button will be used. 
 
