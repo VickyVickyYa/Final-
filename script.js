@@ -95,14 +95,99 @@ const questions = [
             {text: "Amaxophobia", correct: false},
             {text: "Samhainophobia", correct: true},
         ]},
-{question: "What's the phobia of having the fear of Halloween?",
+{question: "What's considered unlucky number?",
         answers: [
-            {text: "Astraphobia", correct: false},
-            {text: "Dentophobia", correct: false},
+            {text: "1", correct: false},
+            {text: "7", correct: false},
+            {text: "24", correct: false},
+            {text: "13", correct: true},
+        ]},
+
+        {question: "What is the rarest color of M&Ms ever produced?",
+        answers: [
+            {text: "Tan", correct: true},
+            {text: "Blue", correct: false},
+            {text: "Brown", correct: false},
+            {text: "Crimson", correct: false},
+        ]},
+
+    {question: "What Candy was promoted as a meal replacement bar?",
+        answers: [
+            {text: "KitKat", correct: false},
+            {text: "M&Ms", correct: false},
+            {text: "Snickers", correct: true},
+            {text: "Twix", correct: false},
+        ]},
+
+      {question: "Which country did Trick or Treat come from?",
+        answers: [
+            {text: "Brazil", correct: false},
+            {text: "Seberia", correct: false},
+            {text: "United States", correct: false},
+            {text: "Ireland", correct: true},
+        ]},
+        {question: "Name the gemstone often associated with witches and magic?",
+        answers: [
+            {text: " Lapis lazuli", correct: false},
+            {text: "Sapphire", correct: false},
+            {text: "Amethyst", correct: true},
+            {text: "Opal", correct: false},
+        ]},
+
+        {question: "What is the most worn costume on halloween for kids?",
+        answers: [
+         {text: "Spider Man", correct: true},
+            {text: "Labubu", correct: false},
+            {text: "Tung Tung Sahur", correct: false},
+            {text: "Princess", correct: true},
+        ]},
+    {question: "What important event happened on 1981 Halloween in Harry Potter?",
+        answers: [
+            {text: "Harry asks Ginny to be his girlfriend", correct: false},
+            {text: "Harry's parents get murdered at Godric's Hallow", correct: true},
+            {text: "Cedric and Lord Voldermort face off", correct: false},
+            {text: "Dursley's give Harry some Candy", correct: false},
+        ]},
+{question: "What type of Cat was considered bad luck in parts of europe?",
+        answers: [
+            {text: "Ragdoll", correct: false},
+            {text: "Black cat", correct: true},
+            {text: "Siamese cat", correct: false},
+            {text: "Burmese cat", correct: false},
+        ]},
+    {question: "Continue to the next PART 👻 or else..",
+        answers: [
+            {text: "YES PLEASE", correct: true},
+            {text: "NO, NO, I HAVE HAD ENOUGH", correct: false},
+            {text: "Sure whatever", correct: true},
+            {text: "I ain't feeling this", correct: false},
+        ]},
+
+
+
+
+     {question: "You're home alone, Halloween night, you hear whispers coming from the attic, you?",
+        answers: [
+            {text: "Pretend not to here it", correct: true},
+            {text: "Go inside", correct: false},
+            {text: "Spend the night outside", correct: false},
+            {text: "Preform seance", correct: false},
+        ]},
+{question: "For 80,000 dollars your dared to spend a night at a haunted house?",
+        answers: [
+            {text: "Go with a friend", correct: false},
+            {text: "Accept the dare you realize the house is nice..", correct: false},
+            {text: "You accept and collect old antiques from there", correct: false},
+            {text: "Undecided so you stand at the door, the real estate agent catches you", correct: true},
+        ]},
+
+    {question: "Your a babysitter the child comes up to you with a drawing of Bippie his imaginary friend, he tells you Bibbie wants you to leave?",
+        answers: [
+            {text: "You smirk, the child probably wants to stay past 9 and doesn't want you to know about it ", correct: false},
+            {text: "You take drawing from him and rip it you had enough of this kid", correct: false},
             {text: "Amaxophobia", correct: false},
             {text: "Samhainophobia", correct: true},
         ]},
-
         {question: "What's the phobia of having the fear of Halloween?",
         answers: [
             {text: "Astraphobia", correct: false},
@@ -111,59 +196,10 @@ const questions = [
             {text: "Samhainophobia", correct: true},
         ]},
 
-    {question: "What's the phobia of having the fear of Halloween?",
-        answers: [
-            {text: "Astraphobia", correct: false},
-            {text: "Dentophobia", correct: false},
-            {text: "Amaxophobia", correct: false},
-            {text: "Samhainophobia", correct: true},
-        ]},
 
-      {question: "What's the phobia of having the fear of Halloween?",
-        answers: [
-            {text: "Astraphobia", correct: false},
-            {text: "Dentophobia", correct: false},
-            {text: "Amaxophobia", correct: false},
-            {text: "Samhainophobia", correct: true},
-        ]},
-        {question: "What's the phobia of having the fear of Halloween?",
-        answers: [
-            {text: "Astraphobia", correct: false},
-            {text: "Dentophobia", correct: false},
-            {text: "Amaxophobia", correct: false},
-            {text: "Samhainophobia", correct: true},
-        ]},
 
-        {question: "What's the phobia of having the fear of Halloween?",
-        answers: [
-            {text: "Astraphobia", correct: false},
-            {text: "Dentophobia", correct: false},
-            {text: "Amaxophobia", correct: false},
-            {text: "Samhainophobia", correct: true},
-        ]},
-    {question: "What's the phobia of having the fear of Halloween?",
-        answers: [
-            {text: "Astraphobia", correct: false},
-            {text: "Dentophobia", correct: false},
-            {text: "Amaxophobia", correct: false},
-            {text: "Samhainophobia", correct: true},
-        ]},
-{question: "What's the phobia of having the fear of Halloween?",
-        answers: [
-            {text: "Astraphobia", correct: false},
-            {text: "Dentophobia", correct: false},
-            {text: "Amaxophobia", correct: false},
-            {text: "Samhainophobia", correct: true},
-        ]},
-    {question: "What's the phobia of having the fear of Halloween?",
-        answers: [
-            {text: "Astraphobia", correct: false},
-            {text: "Dentophobia", correct: false},
-            {text: "Amaxophobia", correct: false},
-            {text: "Samhainophobia", correct: true},
-        ]}
-     
-     
+
+  
 ];
 
 const questionElement = document.getElementById("question");
