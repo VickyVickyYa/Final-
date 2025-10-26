@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const clickSound = document.getElementById("click-sound");
     document.addEventListener('click', function() {clickSound.play();});
+    clickSound.loop = true; 
+clickSound.play();
 
 const questions = [
     {
@@ -181,22 +183,29 @@ const questions = [
             {text: "Undecided so you stand at the door, the real estate agent catches you", correct: true},
         ]},
 
-    {question: "Your a babysitter the child comes up to you with a drawing of Bippie his imaginary friend, he tells you Bibbie wants you to leave?",
+    {question: "Your a babysitter the child comes up to you with a unsettling drawing of Bippie his imaginary friend, he tells you Bibbie wants you to leave?",
         answers: [
             {text: "You smirk, the child probably wants to stay past 9 and doesn't want you to know about it ", correct: false},
-            {text: "You take drawing from him and rip it you had enough of this kid", correct: false},
-            {text: "Amaxophobia", correct: false},
-            {text: "Samhainophobia", correct: true},
+            {text: "You take drawing from him and rip it, you had enough of this kid", correct: false},
+            {text: "You go swiftly", correct: false},
+            {text: "You call the mom.", correct: true},
         ]},
-        {question: "What's the phobia of having the fear of Halloween?",
+        {question: "Your at a halloween party it's dark and sweaty flashes of lights hit you, a masked figure looks in your direction",
         answers: [
-            {text: "Astraphobia", correct: false},
-            {text: "Dentophobia", correct: false},
-            {text: "Amaxophobia", correct: false},
-            {text: "Samhainophobia", correct: true},
+                        {text: "You keep your distance still watching them", correct: true},
+            {text: "You go closer, maybe it's my friend I should go say hi", correct: false},
+            {text: "You smile at yourself maybe it's my secret admirer and go get drinks", correct: false},
+            {text: "You turn around whatever I guess", correct: false},
+
         ]},
 
-
+{ question: "Did you enjoy the Trivia it's ok I won't haunt you 👻",
+        answers: [
+            {text: "YESSS I LOVE IT", correct: true},
+            {text: "THIS BETTER BE THE NEXT JEOPARDY", correct: true},
+            {text: "ITS QUITE FANTASTICAL", correct: true},
+            {text: "I ain't feeling this", correct: false},
+        ]},
 
 
   
