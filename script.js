@@ -1,5 +1,5 @@
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {         
 
     const clickSound = document.getElementById("click-sound");
     document.addEventListener('click', function() {clickSound.play();});
@@ -75,20 +75,93 @@ const questions = [
         ] },
  { question: "Which European city is home to many gothic tales?",
         answers: [
-            {text: "Paris", correct: false},
-            {text: "Romania", correct: true},
+            {text: "Paris", correct: true},
+            {text: "Romania", correct: false},
             {text: "Bolivia", correct: false},
             {text: "Italy", correct: false},
         ] },
-        { question: "Which Shakespearean play is often associated with witches and the supernatural?",
+        { question: "What candy's og name was Opal fruits?",
         answers: [
-            {text: "Beetle Juice", correct: false},
-            {text: "Macbeth", correct: true},
-            {text: "Hamlet", correct: false},
-            {text: "Romeo and Juliet", correct: false},
+            {text: "Candy Corn", correct: false},
+            {text: "Starburst", correct: true},
+            {text: "Lolipops", correct: false},
+            {text: "Sour Patch Kids", correct: false},
         ]},
-      
 
+        { question: "What's the phobia of having the fear of Halloween?",
+        answers: [
+            {text: "Astraphobia", correct: false},
+            {text: "Dentophobia", correct: false},
+            {text: "Amaxophobia", correct: false},
+            {text: "Samhainophobia", correct: true},
+        ]},
+{question: "What's the phobia of having the fear of Halloween?",
+        answers: [
+            {text: "Astraphobia", correct: false},
+            {text: "Dentophobia", correct: false},
+            {text: "Amaxophobia", correct: false},
+            {text: "Samhainophobia", correct: true},
+        ]},
+
+        {question: "What's the phobia of having the fear of Halloween?",
+        answers: [
+            {text: "Astraphobia", correct: false},
+            {text: "Dentophobia", correct: false},
+            {text: "Amaxophobia", correct: false},
+            {text: "Samhainophobia", correct: true},
+        ]},
+
+    {question: "What's the phobia of having the fear of Halloween?",
+        answers: [
+            {text: "Astraphobia", correct: false},
+            {text: "Dentophobia", correct: false},
+            {text: "Amaxophobia", correct: false},
+            {text: "Samhainophobia", correct: true},
+        ]},
+
+      {question: "What's the phobia of having the fear of Halloween?",
+        answers: [
+            {text: "Astraphobia", correct: false},
+            {text: "Dentophobia", correct: false},
+            {text: "Amaxophobia", correct: false},
+            {text: "Samhainophobia", correct: true},
+        ]},
+        {question: "What's the phobia of having the fear of Halloween?",
+        answers: [
+            {text: "Astraphobia", correct: false},
+            {text: "Dentophobia", correct: false},
+            {text: "Amaxophobia", correct: false},
+            {text: "Samhainophobia", correct: true},
+        ]},
+
+        {question: "What's the phobia of having the fear of Halloween?",
+        answers: [
+            {text: "Astraphobia", correct: false},
+            {text: "Dentophobia", correct: false},
+            {text: "Amaxophobia", correct: false},
+            {text: "Samhainophobia", correct: true},
+        ]},
+    {question: "What's the phobia of having the fear of Halloween?",
+        answers: [
+            {text: "Astraphobia", correct: false},
+            {text: "Dentophobia", correct: false},
+            {text: "Amaxophobia", correct: false},
+            {text: "Samhainophobia", correct: true},
+        ]},
+{question: "What's the phobia of having the fear of Halloween?",
+        answers: [
+            {text: "Astraphobia", correct: false},
+            {text: "Dentophobia", correct: false},
+            {text: "Amaxophobia", correct: false},
+            {text: "Samhainophobia", correct: true},
+        ]},
+    {question: "What's the phobia of having the fear of Halloween?",
+        answers: [
+            {text: "Astraphobia", correct: false},
+            {text: "Dentophobia", correct: false},
+            {text: "Amaxophobia", correct: false},
+            {text: "Samhainophobia", correct: true},
+        ]}
      
      
 ];

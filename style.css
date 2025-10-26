@@ -61,14 +61,14 @@ body {
 }
 
 .btn:hover:not([disabled]) {
-  background: white;
-  color: darkblue;
+  background: rgb(224, 128, 32);
+  color: rgb(66, 7, 94);
 }
 .btn:disabled {
   cursor: no-drop;
 }
 #next-btn {
-  background: #001e4d;
+  background: #c97413;
   color: #fff;
   font-weight: 500;
   width: 150px;
@@ -96,8 +96,6 @@ body {
   background-size: 100% 100%;
 }
 
-html,
-body,
 #container {
   top: 0;
   left: 0;
